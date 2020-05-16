@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Light.woff2') format('woff2'),
+        url('SangBleuKingdom-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Medium.woff2') format('woff2'),
+        url('SangBleuKingdom-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-AirItalic.woff2') format('woff2'),
+        url('SangBleuKingdom-AirItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Air.woff2') format('woff2'),
+        url('SangBleuKingdom-Air.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-LightItalic.woff2') format('woff2'),
+        url('SangBleuKingdom-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Bold.woff2') format('woff2'),
+        url('SangBleuKingdom-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Medium.woff2') format('woff2'),
+        url('SangBleuKingdom-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Regular.woff2') format('woff2'),
+        url('SangBleuKingdom-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-Italic.woff2') format('woff2'),
+        url('SangBleuKingdom-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('SangBleuKingdom-BoldItalic.woff2') format('woff2'),
+        url('SangBleuKingdom-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
