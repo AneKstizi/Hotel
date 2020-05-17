@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     overlay.style.opacity = 0;
     overlay.style.visibility = 'hidden';
     document.body.style.overflow = 'auto';
-  }, 1000)
+  }, 0)
 
 
   // Sliders
