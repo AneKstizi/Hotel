@@ -1,0 +1,50 @@
+.spa {
+  padding: 80px 0;
+  position: relative;
+  &__descr {
+    font-family: 'SangBleu Kingdom';
+    margin: 0 auto;
+    text-align: center;
+    max-width: 590px;
+  }
+  &__img {
+    &--first {
+      margin-bottom: 70px;
+    }
+    &--second {
+      margin-bottom: 42px;
+    }
+  }
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 1.3;
+    color: #3D3C3C;
+    margin-bottom: 35px;
+    span {
+      font-weight: 700;
+    }
+  }
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #333333;
+    margin-bottom: 35px;
+  }
+  &__bg {
+    &--2 {
+      position: absolute;
+      right: 0%;
+      bottom: -400px;
+      z-index: -1;
+    }
+    &--1 {
+      position: absolute;
+      left: -30px;
+      bottom: 0;
+    }
+  }
+}

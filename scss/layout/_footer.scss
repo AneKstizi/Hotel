@@ -1,0 +1,20 @@
+.footer {
+  padding: 40px 0;
+  position: relative;
+  background: url('../img/footer__bg.svg') no-repeat center / contain;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__mobile {
+    &__img {
+      display: none;
+    }
+  }
+}
+
+
+
+

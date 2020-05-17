@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./Fonts/euclidcircularb/stylesheet.css">
   <link rel="stylesheet" href="./Fonts/SangBleu Kingdom/stylesheet.css">
-  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
   <title>Mriya Resort</title>
 </head>
 <body>
@@ -126,13 +126,20 @@
               </div>
               <h1 class="test-2">
                 <div class="test-2__inner">
-                  <div class="test__wrapper__img">
-                    <img class="test__img" src="./img/slide__menu.jpg" alt="">
-                    <div class="test__circle__slide">
-                      <span class="slide__circle slide__circle__ac"></span>
-                      <span class="slide__circle"></span>
-                      <span class="slide__circle"></span>
+                  <div class="swiper-container slide-2" style="width: 300px">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img class="test__img" src="./img/slide__menu.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                          <img class="test__img" src="./img/slide__menu.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                          <img class="test__img" src="./img/slide__menu.jpg" alt="">
+                      </div>
                     </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
                   </div>
                 </div>
               </h1>
@@ -372,7 +379,7 @@
 
 
 
-            <div class="swiper-container">
+            <div class="swiper-container slide-1">
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                   <!-- Slides -->
@@ -505,6 +512,6 @@
   </div>
 
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-  <script src="js/main.js"></script>
+  <script defer src="js/main.js"></script>
 </body>
 </html>

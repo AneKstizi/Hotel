@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   // Sliders
-  const mySwiper = new Swiper ('.swiper-container', {
+  const mySwiper = new Swiper ('.slide-1', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -61,5 +61,11 @@ document.addEventListener("DOMContentLoaded", function() {
       nextEl: '.inclusive__slide--right',
       prevEl: '.inclusive__slide--left',
     },
-  })
+  });
+  const swiper = new Swiper('.slide-2', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
 })

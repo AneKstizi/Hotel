@@ -1,0 +1,110 @@
+
+
+.inclusive {
+  background-color: #F6F6F6;
+  padding: 50px 0px;
+  border-radius: 8px;
+  img {
+    width: 100%;
+  }
+  &__inner {
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+  }
+  &__title {
+    font-family: 'SangBleu Kingdom';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: #3D3C3C;
+    margin-right: 30px;
+  }
+  &__slide {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    &__btn__wrapper {
+      display: flex;
+    }
+    &--left {
+      background: url('../img/icons/arrow-slide-left.svg') no-repeat center;
+      background-color: #D9C282;
+
+      margin-right: 10px;
+    }
+    &--right {
+      background: url('../img/icons/arrow-slide-right.svg') no-repeat center;
+      background-color: #D9C282;
+    }
+  }
+  &__content {
+    &__wrapper {
+      display: flex;
+    }
+    &__item {
+      &--notes {
+        max-width: 260px;
+        height: 504px;
+        padding: 10px 20px;
+        margin-left: 30px;
+        background-color: #fff;
+        border-radius: 24px;
+      }
+      &__text {
+        font-family: 'Euclid Circular B';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 22px;
+        margin-bottom: 10px;
+      }
+      .text-lg {
+        max-width: 528px;
+      }
+      &__read {
+        font-family: Euclid Circular B;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #AB955E;
+        cursor: pointer;
+        transition: color .1s ease;
+        &:hover {
+          color: #333;
+        }
+      }
+      &__descr {
+        margin-left: 35px;
+        max-width: 260px;
+        &__suptitle {
+          font-family: 'Euclid Circular B';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 1.5;
+          margin-bottom: 20px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+
+          color: #999999;
+        }
+        &__text {
+          font-family: 'Euclid Circular B';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 1.4;
+          color: #3D3C3C;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
